@@ -3,7 +3,7 @@ const express = require('express');
 const server = express();
 
 server.get('/',(req,res) => {
-   res.send('<h1>Hola mundo con node y express</h1>');
+   res.send('<h1>Hola mundo </h1>');
    res.end();
 });
 
